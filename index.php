@@ -1,25 +1,19 @@
 <?php
-    include 'db.php'; // Conexión a la base de datos [cite: 3]
+    include 'db.php';
 
-    // 1. Inicializamos la variable como un array vacío para evitar errores de "Undefined variable"
-    $vehiculos = []; 
-    
-    // 2. Recogida de parámetros del buscador y ordenación [cite: 11, 12]
+    $vehiculos = []; // inicamos la variable con un array vacio
+     
     $busqueda = isset($_GET['buscar']) ? $_GET['buscar'] : ''; 
     $orden = (isset($_GET['orden']) && $_GET['orden'] == 'DESC') ? 'DESC' : 'ASC'; 
 
     try {
-        /**
-         * 3. Consulta SQL corregida para SQLite:
-         * Cambiamos ILIKE por LIKE. En SQLite, LIKE es insensible a mayúsculas por defecto.
-         * Asegúrate de que en db.php la tabla también se llame "vehiculos".
-         */
+        
         $sql = "SELECT * FROM vehiculos WHERE nombre LIKE :busqueda ORDER BY nombre $orden"; 
         
-        $stmt = $db->prepare($sql); // Preparamos para evitar Inyección SQL [cite: 295]
+        $stmt = $db->prepare($sql); // Preparamos para evitar Inyección SQL
         $stmt->execute(['busqueda' => "%$busqueda%"]);
         
-        $vehiculos = $stmt->fetchAll(PDO::FETCH_ASSOC); // Formato de array asociativo [cite: 243]
+        $vehiculos = $stmt->fetchAll(PDO::FETCH_ASSOC); 
         
     } catch (PDOException $e) {
         echo "<p style='color:red;'>Error en la base de datos: " . $e->getMessage() . "</p>";
@@ -62,7 +56,7 @@
                 <?php if (count($vehiculos) > 0): ?>
                     <?php foreach ($vehiculos as $item): ?>
                     <tr>
-                        <td><img src="img/<?php echo $item['imagen']; ?>" width="80" alt="Coche"></td>
+                        <td><img src="imagenes/<?php echo $item['imagen']; ?>" width="80" alt="Coche"></td>
                         <td><?php echo htmlspecialchars($item['nombre']); ?></td>
                         <td><?php echo $item['stock']; ?> unidades</td>
                         <td>
@@ -78,12 +72,10 @@
         </table>
 
         <script>
-        /**
-         * Función para solicitar confirmación antes de eliminar [cite: 15]
-         */
+        
         function confirmarBorrado(id, nombre) {
             if (confirm("¿Estás seguro de que deseas eliminar el vehículo: " + nombre + "?")) {
-                // Redirige al archivo de procesamiento con la acción de eliminar
+                
                 window.location.href = "procesar.php?accion=eliminar&id=" + id;
             }
         }
