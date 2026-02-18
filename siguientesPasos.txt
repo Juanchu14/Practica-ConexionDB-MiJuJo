@@ -1,7 +1,0 @@
-9/2
-	crear pagina editar.php (botón añadir)
-	hacer los INSERT INTO
-	hacer css
-	borrar.php con botón de borrar en cada vehiculo
-	
-	

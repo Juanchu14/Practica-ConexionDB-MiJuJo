@@ -1,0 +1,174 @@
+/* --- Configuración General (Tema Oscuro) --- */
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #1a1a1a; /* Fondo casi negro */
+    color: #e0e0e0; /* Texto gris claro para leer bien */
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #D40000; /* Rojo Ferrari intenso */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid #D40000;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* --- Formularios (Buscador y Alta/Edición) --- */
+form {
+    background: #2d2d2d; /* Fondo gris oscuro para contenedores */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5); /* Sombra más dramática */
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px;
+    border: 1px solid #444;
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Inputs en modo oscuro */
+input[type="text"], 
+input[type="number"], 
+select {
+    padding: 12px;
+    background-color: #404040; /* Inputs oscuros */
+    border: 2px solid #555;
+    border-radius: 6px;
+    margin-top: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white; /* Texto blanco al escribir */
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #D40000; /* Borde rojo al hacer clic */
+    background-color: #505050;
+}
+
+/* --- Botones Principales --- */
+button, 
+input[type="button"], 
+input[type="submit"] {
+    background-color: #D40000; /* Rojo Ferrari */
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button:hover, 
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+    background-color: #ff1a1a; /* Un rojo más brillante al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación */
+    box-shadow: 0 6px 12px rgba(212, 0, 0, 0.3);
+}
+
+/* --- Tabla de Inventario --- */
+table {
+    width: 100%;
+    max-width: 1200px; /* Tabla más ancha para acomodar fotos grandes */
+    background: #2d2d2d;
+    border-collapse: separate; /* Necesario para bordes redondeados */
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border: 1px solid #444;
+}
+
+thead {
+    background-color: #000; /* Cabecera negra pura */
+    color: #D40000; /* Texto rojo en cabecera */
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 20px; /* Más espacio */
+    text-align: left;
+    border-bottom: 1px solid #444; /* Líneas separadoras oscuras */
+    vertical-align: middle; /* Centrar contenido verticalmente */
+}
+
+/* Efecto hover en las filas */
+tbody tr:hover {
+    background-color: #3d3d3d; /* Resaltado gris oscuro */
+}
+
+/* --- IMÁGENES DE LOS COCHES (El cambio importante) --- */
+td img {
+    width: 180px; /* ¡Mucho más grandes! (antes eran 80px) */
+    height: auto; /* Mantiene la proporción, no se estiran */
+    border-radius: 8px;
+    border: 3px solid #444; /* Marco oscuro elegante */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón por la imagen */
+td img:hover {
+    transform: scale(1.05); /* Pequeño zoom */
+    border-color: #D40000; /* El marco se vuelve rojo */
+}
+
+
+/* --- Enlaces y Acciones --- */
+a {
+    color: #D40000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #ff4d4d;
+    text-decoration: underline;
+}
+
+/* Botón de eliminar específico */
+td button {
+    background-color: transparent;
+    color: #e0e0e0;
+    padding: 8px 15px;
+    border: 2px solid #555;
+    text-transform: none;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+td button:hover {
+    background-color: #D40000;
+    border-color: #D40000;
+    color: white;
+    transform: none;
+}
+
+/* Textos pequeños y ayudas */
+small {
+    color: #888;
+}
+strong {
+    color: #D40000;
+}

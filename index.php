@@ -30,7 +30,7 @@
     <body>
         <h1>Gestión de Inventario</h1>
 
-        <input type="button" value="Añadir Vehículo" onclick="window.location.href='formulario.php'">
+        <input type="button" value="Añadir Vehículo" onclick="window.location.href='formulario.php'"><br>
 
         <form method="GET" action="index.php">
             <input type="text" name="buscar" placeholder="Buscar por nombre..." value="<?php echo htmlspecialchars($busqueda); ?>">
@@ -38,14 +38,14 @@
                 <option value="ASC" <?php if ($orden == 'ASC') echo 'selected'; ?>>Alfabético (A-Z)</option>
                 <option value="DESC" <?php if ($orden == 'DESC') echo 'selected'; ?>>Alfabético (Z-A)</option>
             </select>
-            <button type="submit">Buscar</button>
+            <br><br><button type="submit">Buscar</button>
         </form>
 
         <br>
 
-        <table border="1" style="width:100%; text-align:left; border-collapse: collapse;">
+        <table border="1">
             <thead>
-                <tr style="background-color: #f2f2f2;">
+                <tr>
                     <th>Imagen</th> 
                     <th>Nombre</th> 
                     <th>Stock</th>  
@@ -56,11 +56,11 @@
                 <?php if (count($vehiculos) > 0): ?>
                     <?php foreach ($vehiculos as $item): ?>
                     <tr>
-                        <td><img src="imagenes/<?php echo $item['imagen']; ?>" width="80" alt="Coche"></td>
+                        <td><center><img src="imagenes/<?php echo $item['imagen']; ?>" width="80" alt="Coche"></center></td>
                         <td><?php echo htmlspecialchars($item['nombre']); ?></td>
                         <td><?php echo $item['stock']; ?> unidades</td>
                         <td>
-                            <a href="formulario.php?id=<?php echo $item['id']; ?>">Editar</a>
+                            <button onclick="window.location.href='formulario.php?id=<?php echo $item['id']; ?>'">Editar</button>
                             <button onclick="confirmarBorrado(<?php echo $item['id']; ?>, '<?php echo $item['nombre']; ?>')">Eliminar</button>
                         </td>
                     </tr>
