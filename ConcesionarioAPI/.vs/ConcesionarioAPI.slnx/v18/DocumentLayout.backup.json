@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\concesionarioapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\concesionarioapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|c:\\users\\mrste\\onedrive\\escritorio\\proyectobbdd\\practica-conexiondb-mijujo\\concesionarioapi\\concesionarioapi\\migrations\\20260315154142_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB089EA-C069-5408-7A0E-15FA53E764EA}|ConcesionarioAPI\\ConcesionarioAPI.csproj|solutionrelative:concesionarioapi\\migrations\\20260315154142_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Controllers\\VehiculosController.cs",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\Controllers\\VehiculosController.cs",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Controllers\\VehiculosController.cs",
+              "RelativeToolTip": "ConcesionarioAPI\\Controllers\\VehiculosController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:57:17.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConcesionarioAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\ConcesionarioAPI.csproj",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
+              "RelativeToolTip": "ConcesionarioAPI\\ConcesionarioAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-15T15:35:14.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Program.cs",
+              "RelativeToolTip": "ConcesionarioAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:27:52.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ConcesionarioAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:11:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\Models\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "ConcesionarioAPI\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:58:02.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260315154142_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Migrations\\20260315154142_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ConcesionarioAPI\\Migrations\\20260315154142_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI\\Migrations\\20260315154142_InitialCreate.cs",
+              "RelativeToolTip": "ConcesionarioAPI\\Migrations\\20260315154142_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:41:42.617Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
