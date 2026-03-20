@@ -29,11 +29,8 @@ namespace ConcesionarioAPI.Controllers
         {
             var vehiculo = await _context.Vehiculos.FindAsync(id);
 
-            if (vehiculo == null)
-            {
-                return NotFound();
-            }
-
+            if (vehiculo == null) return NotFound();
+            
             return vehiculo;
         }
 
@@ -48,21 +45,21 @@ namespace ConcesionarioAPI.Controllers
 
             if (dto.Imagen != null)
             {
-                string uploadsFolder = Path.Combine(_env.WebRootPath ?? "wwwroot", "imagenes");
-                if (!Directory.Exists(uploadsFolder))
+                string folder = Path.Combine(_env.WebRootPath ?? "wwwroot", "imagenes");
+                if (!Directory.Exists(folder))
                 {
-                    Directory.CreateDirectory(uploadsFolder);
+                    Directory.CreateDirectory(folder);
                 }
 
-                string uniqueFileName = Guid.NewGuid().ToString() + "_" + dto.Imagen.FileName;
-                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                string nombreArchivo = Guid.NewGuid().ToString() + "_" + dto.Imagen.FileName;
+                string filePath = Path.Combine(folder, nombreArchivo);
                 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     await dto.Imagen.CopyToAsync(fileStream);
                 }
 
-                vehiculo.ImagenUrl = "/imagenes/" + uniqueFileName;
+                vehiculo.ImagenUrl = "/imagenes/" + nombreArchivo;
             }
 
             _context.Vehiculos.Add(vehiculo);
@@ -75,21 +72,18 @@ namespace ConcesionarioAPI.Controllers
         public async Task<IActionResult> PutVehiculo(int id, [FromForm] VehiculoDto dto)
         {
             var vehiculo = await _context.Vehiculos.FindAsync(id);
-            if (vehiculo == null)
-            {
-                return NotFound();
-            }
-
+            if (vehiculo == null) return NotFound();
+            
             vehiculo.Nombre = dto.Nombre;
             vehiculo.Stock = dto.Stock;
 
             if (dto.Imagen != null)
             {
-                string uploadsFolder = Path.Combine(_env.WebRootPath ?? "wwwroot", "imagenes");
-                if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
+                string folder = Path.Combine(_env.WebRootPath ?? "wwwroot", "imagenes");
+                if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
 
-                string uniqueFileName = Guid.NewGuid().ToString() + "_" + dto.Imagen.FileName;
-                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                string nombreArchivo = Guid.NewGuid().ToString() + "_" + dto.Imagen.FileName;
+                string filePath = Path.Combine(folder, nombreArchivo);
                 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
@@ -105,7 +99,7 @@ namespace ConcesionarioAPI.Controllers
                     }
                 }
 
-                vehiculo.ImagenUrl = "/imagenes/" + uniqueFileName;
+                vehiculo.ImagenUrl = "/imagenes/" + nombreArchivo;
             }
 
             _context.Entry(vehiculo).State = EntityState.Modified;
@@ -118,10 +112,8 @@ namespace ConcesionarioAPI.Controllers
         public async Task<IActionResult> DeleteVehiculo(int id)
         {
             var vehiculo = await _context.Vehiculos.FindAsync(id);
-            if (vehiculo == null)
-            {
-                return NotFound();
-            }
+            if (vehiculo == null) return NotFound();
+            
 
             if (!string.IsNullOrEmpty(vehiculo.ImagenUrl))
             {
@@ -138,7 +130,6 @@ namespace ConcesionarioAPI.Controllers
             return NoContent();
         }
     }
-
     public class VehiculoDto
     {
         public string Nombre { get; set; } = string.Empty;

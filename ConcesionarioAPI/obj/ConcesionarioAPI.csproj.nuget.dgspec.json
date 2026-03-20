@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Desktop\\ProyectoBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj": {}
+    "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Desktop\\ProyectoBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj": {
+    "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\ProyectoBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
         "projectName": "ConcesionarioAPI",
-        "projectPath": "C:\\Users\\Juan\\Desktop\\ProyectoBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
-        "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Desktop\\ProyectoBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\obj\\",
+        "projectPath": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\ConcesionarioAPI.csproj",
+        "packagesPath": "C:\\Users\\mrste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrste\\OneDrive\\Escritorio\\PROYECTOBBDD\\Practica-ConexionDB-MiJuJo\\ConcesionarioAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONCESIONARIO MIJUJO - Elite Cars</title>
+    <title>MIJUJO | Concesionario Premium</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>CONCESIONARIO MIJUJO</h1>
-
-    <div class="header-controls filtro-container">
-        <a href="formulario.html" class="btn">+ Añadir Nuevo Vehículo</a>
+    <header class="header-controls">
+        <h1>MIJUJO <span>MOTORS</span></h1>
         
-        <div style="flex-grow: 1; max-width: 400px;">
+        <div class="filtro-container" style="display: contents;">
             <input type="text" id="buscador" placeholder="Buscar modelo (ej: AMG GT)..." oninput="renderizarVehiculos()">
-        </div>
-        
-        <div>
+            
             <select id="orden" onchange="renderizarVehiculos()">
-                <option value="asc">Ordenar alfabéticamente (A-Z)</option>
-                <option value="desc">Ordenar alfabéticamente (Z-A)</option>
+                <option value="asc">Nombre (A-Z)</option>
+                <option value="desc">Nombre (Z-A)</option>
             </select>
-        </div>
-    </div>
 
-    <div id="lista-vehiculos" class="vehiculos-grid">
-        <p style="text-align: center; grid-column: 1/-1;">Conectando con el motor del servidor...</p>
-    </div>
+            <a href="formulario.html" class="btn">+ Añadir Vehículo</a>
+        </div>
+    </header>
+
+    <main id="lista-vehiculos" class="vehiculos-grid">
+        <p style="grid-column: 1/-1; color: var(--text-muted);">Cargando catálogo de unidades...</p>
+    </main>
 
     <script src="app.js"></script>
 </body>

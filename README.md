@@ -1,2 +1,2 @@
 # Practica-ConexionDB-MiJuJo
-Proyecto realizado por José Manuel González, Miguel Ruiz y Juan Sandoval.
+Proyecto realizado por José Manuel González, Miguel Ruiz y Juan Sandoval. Alumnos de 2ºde ASIR. 
